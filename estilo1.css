@@ -1,0 +1,35 @@
+body{
+
+	background-image:url(imagenes/fondo.jpg);
+	background-image: cover;
+}
+#menu{
+	background-color:#000;
+}
+
+#menu ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+}
+
+#menu ul li{
+
+	display: inline-block;
+
+}
+
+#menu ul li a{
+		color:white;
+		display:block;
+		padding:10px 20px;
+		text-decoration:none;
+}
+
+#menu ul li a:hover{
+	background-color: #42B881;
+}
+.item-r{
+		float:right;
+}
+

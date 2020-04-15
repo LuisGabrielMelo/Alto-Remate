@@ -1,0 +1,56 @@
+body{
+	background-image:url(imagenes/fondo.jpg);
+	background-image: cover;
+	margin:1px;
+	padding:2px;
+	width:45%;
+	height:45%;
+	position:relative;
+}
+
+.login{
+	margin:10px;
+	border:1px solid #E1E1E1;
+	border:2px solid #aaa;
+	padding:80%;
+	width:25px;
+	height: 45px;
+	outline: none;
+	position: relative;
+	box-sizing:border-box;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+
+h1{
+	position: relative;
+	margin:0px;
+	padding: 0px;
+	text-align:center;
+}
+
+input{
+
+	width:150px;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:8px;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition:.3s;
+
+}
+
+button{
+	width:150px;
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:8px;
+	outline:none;
+	padding:8px;
+	box-sizing:border-box;
+	transition:.3s;
+}
